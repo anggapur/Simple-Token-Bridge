@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@project/*": ["packages/*"]
+    }
+  },
+  "include": [],
+  "exclude": ["@app/e2e"],
+  "references": [
+    { "path": "packages/contracts" },
+    { "path": "packages/react-app" }
+  ]
+}

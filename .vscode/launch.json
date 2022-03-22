@@ -1,0 +1,63 @@
+{
+  "version": "0.1.0",
+  "configurations": [
+    {
+      "command": "yarn solidity start",
+      "name": "Run yarn solidity start",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
+      "command": "yarn solidity test",
+      "name": "Run yarn solidity test",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
+      "command": "yarn solidity deploy",
+      "name": "Run yarn solidity deploy",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
+      "command": "yarn solidity build",
+      "name": "Run yarn solidity build",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
+      "command": "yarn solidity clean",
+      "name": "Run yarn solidity clean",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Attach to Node Server",
+      "port": 9678,
+      "restart": true,
+      "outFiles": [
+        "${workspaceFolder}/packages/contracts/dist/**/*.js",
+        "${workspaceFolder}/packages/react-app/build/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Attach to Jest tests",
+      "port": 9876,
+      "restart": true
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch localhost:5678",
+      "url": "http://localhost:5678/",
+      "webRoot": "${workspaceFolder}/packages/react-app/src",
+      "pathMapping": {
+        "/": "${workspaceFolder}/packages/react-app/build"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "juanblanco.solidity",
+    "ms-vscode-remote.remote-containers",
+    "msjsdiag.debugger-for-chrome",
+    "apollographql.vscode-apollo",
+    "mikestead.dotenv",
+    "ms-azuretools.vscode-docker",
+    "p1c2u.docker-compose",
+    "dzannotti.vscode-babel-coloring",
+    "aaron-bond.better-comments",
+    "pranaygp.vscode-css-peek",
+    "codemooseus.vscode-devtools-for-chrome",
+    "wix.vscode-import-cost",
+    "cancerberosgx.vscode-typescript-refactors",
+    "steoates.autoimport",
+    "ms-vsliveshare.vsliveshare-pack",
+    "donjayamanne.githistory"
+  ]
+}

@@ -1,0 +1,17 @@
+.eslintrc.js
+
+**/dist
+**/build
+**/generated
+
+# solidity
+packages/solidity/artifacts/
+packages/contracts/typechain/
+packages/contracts/deployments/
+
+# subgraph
+packages/subgraph/build/
+packages/subgraph/src/types/
+
+# solidity-legacy
+packages/solidity-legacy/contracts/
